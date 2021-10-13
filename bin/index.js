@@ -15,7 +15,7 @@ const gameFlow = (userName, game, roundsCount = 3) => {
     console.log('Correct!');
     attemptsCount += 1;
   } while (attemptsCount < roundsCount);
-  console.log(`Congratulations, ${userName}`);
+  console.log(`Congratulations, ${userName}!`);
   return null;
 };
 

@@ -1,3 +1,5 @@
+import { getNumber } from '../bin/index.js';
+
 const isEven = (num) => {
   const answer = num % 2 === 0 ? 'yes' : 'no';
   return answer;

@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const getNumber = (min = 1, max = 100) => Math.floor((Math.random() * (max - min)) + min);
+const getNumber = (min = 1, max = 100) => Math.round((Math.random() * (max - min)) + min);
 
 const gameFlow = (userName, game, roundsCount = 3) => {
   let attemptsCount = 0;

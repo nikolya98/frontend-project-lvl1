@@ -11,7 +11,7 @@ const getProgression = (numbersCount = 10) => {
 
 const guessProgressionElem = () => {
   const progression = getProgression();
-  const randomIndex = getNumber(0, progression.length);
+  const randomIndex = getNumber(0, progression.length - 1);
   const answer = progression[randomIndex];
   progression[randomIndex] = '..';
   return [progression.join(' '), `${answer}`];
